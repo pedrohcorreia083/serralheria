@@ -1896,51 +1896,11 @@ section,
   position: relative;
 }
 
-.portfolio-details .portfolio-details-media .main-image {
+.portfolio-details img {
   margin-bottom: 1rem;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-}
-
-.portfolio-details .portfolio-details-media .main-image .portfolio-details-slider {
-  position: relative;
-}
-
-.portfolio-details .portfolio-details-media .main-image .portfolio-details-slider .swiper-wrapper {
-  height: auto !important;
-}
-
-.portfolio-details .portfolio-details-media .main-image .portfolio-details-slider .swiper-slide img {
-  aspect-ratio: 3/2;
-  object-fit: cover;
-  width: 100%;
-}
-
-.portfolio-details .portfolio-details-media .main-image .portfolio-details-slider .swiper-button-next,
-.portfolio-details .portfolio-details-media .main-image .portfolio-details-slider .swiper-button-prev {
-  background-color: var(--contrast-color);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  transition: all 0.3s ease;
-}
-
-.portfolio-details .portfolio-details-media .main-image .portfolio-details-slider .swiper-button-next:after,
-.portfolio-details .portfolio-details-media .main-image .portfolio-details-slider .swiper-button-prev:after {
-  font-size: 16px;
-  color: var(--accent-color);
-  font-weight: bold;
-}
-
-.portfolio-details .portfolio-details-media .main-image .portfolio-details-slider .swiper-button-next:hover,
-.portfolio-details .portfolio-details-media .main-image .portfolio-details-slider .swiper-button-prev:hover {
-  background-color: var(--accent-color);
-}
-
-.portfolio-details .portfolio-details-media .main-image .portfolio-details-slider .swiper-button-next:hover:after,
-.portfolio-details .portfolio-details-media .main-image .portfolio-details-slider .swiper-button-prev:hover:after {
-  color: var(--contrast-color);
 }
 
 .portfolio-details .portfolio-details-media .thumbnail-grid img {
@@ -2107,6 +2067,12 @@ section,
 }
 
 .portfolio-details .portfolio-details-content .project-overview .project-accordion .accordion-item .accordion-body p {
+  margin-bottom: 0;
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+  line-height: 1.6;
+}
+
+.accordion-item {
   margin-bottom: 0;
   color: color-mix(in srgb, var(--default-color), transparent 25%);
   line-height: 1.6;
