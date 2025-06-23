@@ -1678,7 +1678,6 @@ section,
 
 .contact .form-container-overlap {
   position: relative;
-  margin-top: -150px;
   margin-bottom: 60px;
   z-index: 10;
 }
