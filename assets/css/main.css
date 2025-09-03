@@ -1103,6 +1103,7 @@ section,
   visibility: hidden;
   transform: translateY(20px);
   transition: all 0.3s ease;
+    clip-path: polygon(70% 0, 100% 30%, 100% 100%, 0 100%, 0 0);
 }
 
 .services .service-card .card-action i {
