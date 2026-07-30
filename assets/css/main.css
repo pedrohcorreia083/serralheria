@@ -1103,7 +1103,7 @@ section,
   visibility: hidden;
   transform: translateY(20px);
   transition: all 0.3s ease;
-    clip-path: polygon(70% 0, 100% 30%, 100% 100%, 0 100%, 0 0);
+  clip-path: polygon(70% 0, 100% 30%, 100% 100%, 0 100%, 0 0);
 }
 
 .services .service-card .card-action i {
@@ -1894,7 +1894,7 @@ section,
 
 .portfolio-details .portfolio-details-content .project-overview .project-accordion .accordion-item .accordion-header .accordion-button i {
   font-size: 1.1rem;
-  
+
 }
 
 .portfolio-details .portfolio-details-content .project-overview .project-accordion .accordion-item .accordion-body {
